@@ -178,6 +178,7 @@ body {
 
             .div-right {
                 display: flex;
+                align-items: center;
                 gap: var(--pxr-16);
                 /* background-color: rgb(241, 163, 163); */
             }
