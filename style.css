@@ -11,6 +11,7 @@
     --secondary-color: #7f58e9;
 
     --body-background: #F5F7FA;
+    --txt-grey: grey;
 
     --red-color: #ff0000;
 
@@ -49,7 +50,6 @@
     /* Icons size */
     --small-icon: var(--pxr-16);
     --medium-icon: var(--pxr-24);
-    --large-icon: var(--pxr-72);
 
 }
 
@@ -152,6 +152,7 @@ body {
                 border: 1px solid rgb(241, 241, 241);
                 border-radius: 4px;
                 background-color: rgb(236, 236, 236);
+                color: var(--txt-grey);
             }
 
         }
@@ -163,6 +164,7 @@ body {
 
             p {
                 font-size: var(--pxr-14);
+                color: var(--txt-grey);
             }
 
             .div-left {
